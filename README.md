@@ -14,3 +14,4 @@ This repository hosts the Dockerfiles used to build the ALF container images. Th
 
 Run `./build.sh` to build all images. Set `SELECT_DISTRIBUTION=<name>` (with `<name>` one of `archlinux`, `bookworm`, `bullseye`, `jupyter`, `trixie`, `tumbleweed`) to restrict the build to a single distribution. Set `REGISTRY_URL` to push to a custom registry and export `PUSH_IMAGES=0` for a dry run without pushing.
 
+foobar
